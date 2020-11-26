@@ -4,7 +4,7 @@ class Apple{
     }
 
     decrease(){
-        this.weight--;
+        this.weight -= 1;
     }
 
     isEmpty(){
@@ -34,8 +34,8 @@ class Human{
         this.gender = g;
     }
 
-    checkApple(A){
-        if (A.isEmpty()){
+    checkApple(apple){
+        if (apple.isEmpty()){
             return false;
         }
         else{
@@ -43,10 +43,11 @@ class Human{
         }
     }
 
-    eat(A){
-        if (this.checkApple(A)){
-            A.decrease();
-            this.setWeight(this.weight++);
+    eat(apple){
+        if (this.checkApple(apple)){
+            apple.decrease();
+            let weight = this.weight + 1;
+            this.setWeight(weight);
         }
     }
 
@@ -66,7 +67,7 @@ class Human{
         return this.weight;
     }
 
-    setWeight(i){
-        this.weight = i;
+    setWeight(weight){
+        this.weight = weight;
     }
 }

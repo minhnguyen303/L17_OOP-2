@@ -23,8 +23,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Simple game - move object/objects" beforeDir="false" afterPath="$PROJECT_DIR$/Simple game - move object/objects" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Simple game - move object/objects/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Simple game - move object/objects/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/[Bài tập] Story of Adam and Eva.html" beforeDir="false" afterPath="$PROJECT_DIR$/[Bài tập] Story of Adam and Eva.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/Story of Adam and Eva.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/Story of Adam and Eva.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +80,8 @@
       <workItem from="1606324705906" duration="2431000" />
       <workItem from="1606351560874" duration="1417000" />
       <workItem from="1606355679043" duration="28000" />
-      <workItem from="1606356428083" duration="409000" />
+      <workItem from="1606356428083" duration="593000" />
+      <workItem from="1606448365687" duration="734000" />
     </task>
     <servers />
   </component>

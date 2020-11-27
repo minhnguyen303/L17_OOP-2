@@ -1,73 +1,72 @@
-class Apple{
+class Apple {
     constructor() {
         this.weight = 10;
     }
 
-    decrease(){
+    decrease() {
         this.weight -= 1;
     }
 
-    isEmpty(){
+    isEmpty() {
         if (this.getWeight())
             return false;
         else
             return true;
     }
 
-    getWeight(){
+    getWeight() {
         return this.weight;
     }
 }
 
-class Human{
+class Human {
     constructor(name, gender, weight) {
         this.name = name;
         this.gender = gender;
         this.weight = weight;
     }
 
-    isMale(){
+    isMale() {
         return this.gender;
     }
 
-    setGender(g){
+    setGender(g) {
         this.gender = g;
     }
 
-    checkApple(apple){
-        if (apple.isEmpty()){
+    checkApple(apple) {
+        if (apple.isEmpty()) {
             return false;
-        }
-        else{
+        } else {
             return true;
         }
     }
 
-    eat(apple){
-        if (this.checkApple(apple)){
+    eat(apple) {
+        if (this.checkApple(apple)) {
             apple.decrease();
             let weight = this.weight + 1;
             this.setWeight(weight);
         }
     }
 
-    say(str){
+    say(str) {
         console.log(str);
     }
 
-    getName(){
+    getName() {
         return this.name;
     }
 
-    setName(str){
-        this.name =name;
+    setName(str) {
+        this.name = name;
     }
 
-    getWeight(){
+    getWeight() {
         return this.weight;
     }
 
-    setWeight(weight){
+    setWeight(weight) {
         this.weight = weight;
     }
 }
